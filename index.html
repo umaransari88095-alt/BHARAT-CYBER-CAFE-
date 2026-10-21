@@ -3,91 +3,119 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Bharat Cyber Cafe, Bada Bazar Machhargawan — ऑनलाइन फॉर्म, स्कॉलरशिप, प्रिंट, प्रमाण पत्र और डिजिटल सेवाएँ।">
+<meta name="theme-color" content="#073b8c">
+<meta name="description" content="Bharat Cyber Cafe, बड़ा बाजार मच्छरगवां। PAN Card, Aadhaar Services, Online Forms, Scholarship, Printing और अन्य ऑनलाइन सेवाएँ।">
 <title>Bharat Cyber Cafe | Online Services</title>
-<meta name="theme-color" content="#102a43">
+
 <style>
-:root{--navy:#102a43;--blue:#1769aa;--gold:#ffbf36;--light:#f3f7fb;--ink:#243b53}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,"Noto Sans Devanagari",sans-serif;color:var(--ink);line-height:1.6;background:#fff}
-header{background:var(--navy);color:white;padding:15px 5%;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.brand{font-size:1.2rem;font-weight:800;display:flex;align-items:center;gap:10px}.brand-logo{width:52px;height:52px;object-fit:cover;border-radius:50%;background:white;border:2px solid var(--gold)}.brand span{color:var(--gold)}nav{display:flex;gap:16px;flex-wrap:wrap}nav a{color:white;text-decoration:none;font-size:.95rem}
-.hero{padding:64px 5%;background:linear-gradient(125deg,#102a43,#1769aa);color:white;display:grid;grid-template-columns:1.4fr 1fr;gap:28px;align-items:center}
-.hero h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.15;margin:0 0 16px}.hero h1 span{color:var(--gold)}.hero p{font-size:1.1rem;max-width:650px}
-.badge{display:inline-block;background:#ffffff1c;border:1px solid #ffffff50;padding:7px 12px;border-radius:30px;margin-bottom:14px}
-.hero-card{background:white;color:var(--ink);padding:24px;border-radius:18px;box-shadow:0 14px 35px #001a332e}.hero-card h3{margin-top:0;color:var(--navy)}
-.btn{display:inline-block;text-decoration:none;font-weight:bold;padding:12px 18px;border-radius:9px;margin:6px 8px 0 0}.btn-gold{background:var(--gold);color:#172b4d}.btn-white{border:1px solid white;color:white}
-section{padding:48px 5%}.section-title{text-align:center;margin:0 0 8px;color:var(--navy);font-size:2rem}.sub{text-align:center;margin:0 auto 28px;max-width:720px;color:#627d98}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{border:1px solid #e2eaf2;border-radius:14px;padding:20px;background:white;box-shadow:0 4px 14px #102a430a}.icon{font-size:1.8rem}.card h3{margin:8px 0;color:var(--navy);font-size:1.1rem}.card p{margin:0;color:#52667a}
-.updates{background:var(--light)}.update-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:22px 0}.update-card{background:#fff;border:1px solid #e2eaf2;border-radius:14px;padding:20px;box-shadow:0 4px 14px #102a430a}.update-card h3{margin:8px 0;color:var(--navy)}.update-card p{margin:0 0 12px;color:#52667a}.notice{max-width:850px;margin:auto;background:white;border-left:5px solid var(--gold);padding:18px 20px;border-radius:10px}
-.contact{background:#102a43;color:white}.contact .section-title{color:white}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:900px;margin:auto}.contact-box{background:#ffffff12;padding:22px;border:1px solid #ffffff25;border-radius:14px}.contact a{color:var(--gold)}
-footer{text-align:center;padding:20px;background:#0b1f33;color:#d9e2ec;font-size:.9rem}
-.float{position:fixed;right:16px;bottom:16px;background:#168b50;color:white;text-decoration:none;padding:13px 17px;border-radius:40px;box-shadow:0 6px 20px #0003;font-weight:bold;z-index:5}
-@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:42px}.grid,.update-grid{grid-template-columns:repeat(2,1fr)}.contact-grid{grid-template-columns:1fr}header{align-items:flex-start}nav{gap:10px}}
-@media(max-width:480px){.grid,.update-grid{grid-template-columns:1fr}section{padding:36px 5%}.hero{padding:42px 5%}}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#f3f7ff;color:#172033;line-height:1.6}
+header{background:linear-gradient(135deg,#063477,#087be0);color:white;padding:24px 16px;text-align:center}
+.logo{font-size:42px;margin-bottom:5px}
+header h1{font-size:29px;font-weight:900}
+header p{color:#ffe36b;font-weight:bold;margin-top:5px}
+nav{background:#052b63;padding:12px;text-align:center;position:sticky;top:0;z-index:10}
+nav a{color:white;text-decoration:none;margin:0 10px;font-weight:bold;font-size:14px}
+.hero{padding:48px 18px;text-align:center;background:linear-gradient(135deg,#e7f1ff,#fff8d9)}
+.hero h2{font-size:29px;color:#073b8c;line-height:1.3}
+.hero h2 span{color:#ed9b00}
+.hero p{margin:15px auto;max-width:520px;color:#4a5568}
+.btn{display:inline-block;padding:12px 22px;background:#ffc928;color:#10254a;text-decoration:none;font-weight:bold;border-radius:9px;margin:7px;box-shadow:0 4px 10px #0001}
+.btn-green{background:#138b48;color:white}
+section{padding:32px 16px;max-width:1100px;margin:auto}
+.title{text-align:center;font-size:25px;color:#073b8c;margin-bottom:7px}
+.subtitle{text-align:center;color:#687386;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:14px}
+.card{background:white;padding:20px 12px;border-radius:14px;text-align:center;box-shadow:0 4px 15px #12336612;border:1px solid #e3eafa;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 22px #12336620}
+.icon{font-size:34px;margin-bottom:8px}
+.card h3{font-size:16px;color:#073b8c}
+.card p{font-size:12px;color:#687386;margin-top:5px}
+.notice{background:#fff3c4;border-left:5px solid #f3b400;padding:20px;border-radius:10px}
+.contact{background:#073b8c;color:white;text-align:center;border-radius:18px;padding:30px 16px}
+.contact h2{font-size:26px;margin-bottom:10px}
+.contact p{margin:6px}
+footer{margin-top:30px;background:#041c41;color:#dbe8ff;text-align:center;padding:22px 12px;font-size:13px}
+footer strong{color:#ffd447}
+.float-wa{position:fixed;right:16px;bottom:18px;background:#16a34a;color:white;padding:13px 17px;border-radius:30px;text-decoration:none;font-weight:bold;box-shadow:0 5px 18px #0003;z-index:20}
+@media(max-width:480px){
+header h1{font-size:24px}
+.hero h2{font-size:25px}
+nav a{margin:0 5px;font-size:12px}
+.grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
 </style>
 </head>
+
 <body>
+
 <header>
-  <div class="brand"><img class="brand-logo" src="logo.png" alt="Bharat Cyber Cafe logo"><div>BHARAT <span>CYBER CAFE</span><div style="font-size:.72rem;font-weight:500;color:#d9e2ec">Online Service • Print • Photo</div></div></div>
-  <nav><a href="#home">होम</a><a href="#services">सेवाएँ</a><a href="#updates">लेटेस्ट अपडेट</a><a href="#contact">संपर्क</a></nav>
+<div class="logo">🏪</div>
+<h1>BHARAT CYBER CAFE</h1>
+<p>आपकी सभी ऑनलाइन सेवाएँ, एक ही जगह!</p>
 </header>
-<main>
-<section class="hero" id="home">
-  <div>
-    <div class="badge">आपकी अपनी डिजिटल सेवा की दुकान</div>
-    <h1>आपके सभी ऑनलाइन काम,<br><span>एक ही जगह!</span></h1>
-    <p>ऑनलाइन फॉर्म, स्कॉलरशिप, सरकारी योजनाओं की जानकारी, प्रिंटिंग और अन्य डिजिटल सेवाओं के लिए हमसे संपर्क करें।</p>
-    <a class="btn btn-gold" href="https://wa.me/918809545829?text=Namaste%20Bharat%20Cyber%20Cafe%2C%20mujhe%20online%20service%20ke%20liye%20jaankari%20chahiye." target="_blank" rel="noopener">WhatsApp पर संपर्क करें</a>
-    <a class="btn btn-white" href="#services">सभी सेवाएँ देखें ↓</a>
-  </div>
-  <div class="hero-card">
-    <img src="logo.png" alt="Bharat Cyber Cafe logo" style="width:100%;max-width:320px;display:block;margin:0 auto 14px;border-radius:12px"><h3>🏪 Bharat Cyber Cafe</h3>
-    <p>📍 <strong>पता:</strong> बड़ा बाजार, मच्छरगवां</p>
-    <p>👨‍💼 <strong>Proprietor:</strong> Umar</p>
-    <p>📞 <strong>मोबाइल:</strong> 8809545829</p>
-    <hr style="border:0;border-top:1px solid #e2eaf2">
-    <p><strong>हमसे पूछें:</strong> उपलब्ध सेवा, जरूरी दस्तावेज़ और आवेदन प्रक्रिया।</p>
-  </div>
-</section>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+<h2>Welcome to <span>Bharat Cyber Cafe</span></h2>
+<p>सरकारी योजनाओं, ऑनलाइन आवेदन, छात्रवृत्ति, PAN Card, प्रिंटिंग और अन्य डिजिटल सेवाओं के लिए संपर्क करें।</p>
+<a class="btn" href="#services">हमारी सेवाएँ देखें ↓</a>
+<a class="btn btn-green" href="https://wa.me/918809545829?text=Namaste%20Bharat%20Cyber%20Cafe">WhatsApp करें</a>
+</div>
+
 <section id="services">
-  <h2 class="section-title">हमारी सेवाएँ</h2>
-  <p class="sub">जिस काम के लिए मदद चाहिए, उसकी जानकारी पाने के लिए WhatsApp पर संदेश भेजें। सेवाओं की उपलब्धता नियमों और संबंधित पोर्टल पर निर्भर करेगी।</p>
-  <div class="grid">
-    <article class="card"><div class="icon">🪪</div><h3>PAN Card Services</h3><p>पैन कार्ड आवेदन और संबंधित सेवाओं की जानकारी।</p></article>
-    <article class="card"><div class="icon">📝</div><h3>Online Forms</h3><p>सरकारी नौकरी, प्रवेश और अन्य ऑनलाइन आवेदन।</p></article>
-    <article class="card"><div class="icon">🎓</div><h3>Scholarship</h3><p>स्कॉलरशिप फॉर्म, आवेदन स्थिति और अपडेट की जानकारी।</p></article>
-    <article class="card"><div class="icon">📄</div><h3>Certificates</h3><p>आय, जाति और निवास प्रमाण पत्र के आवेदन में सहायता।</p></article>
-    <article class="card"><div class="icon">🖨️</div><h3>Print & Photocopy</h3><p>ब्लैक-एंड-व्हाइट/कलर प्रिंट, फोटो कॉपी और लैमिनेशन।</p></article>
-    <article class="card"><div class="icon">🩺</div><h3>Government Schemes</h3><p>आयुष्मान कार्ड और अन्य सरकारी योजनाओं की जानकारी।</p></article>
-    <article class="card"><div class="icon">🚘</div><h3>Vehicle Services</h3><p>ड्राइविंग लाइसेंस, रोड टैक्स और वाहन बीमा संबंधी सहायता।</p></article>
-    <article class="card"><div class="icon">🌾</div><h3>Farmer Services</h3><p>किसान कार्ड, फसल बीमा और कृषि योजनाओं की जानकारी।</p></article>
-    <article class="card"><div class="icon">⌨️</div><h3>Typing & Biodata</h3><p>टाइपिंग, बायोडाटा और दस्तावेज़ तैयार करने की सेवा।</p></article>
-    <article class="card"><div class="icon">🚆</div><h3>Travel Services</h3><p>ट्रेन टिकट व अन्य यात्रा सेवाओं की उपलब्धता पूछें।</p></article>
-    <article class="card"><div class="icon">👷</div><h3>Worker & PF Services</h3><p>ई-श्रम कार्ड और PF संबंधी प्रक्रिया की जानकारी।</p></article>
-    <article class="card"><div class="icon">📚</div><h3>Other Online Services</h3><p>राशन कार्ड, पेंशन, मोबाइल रिचार्ज और अन्य उपलब्ध सेवाएँ।</p></article>
-  </div>
+<h2 class="title">💻 हमारी मुख्य सेवाएँ</h2>
+<p class="subtitle">आपकी सुविधा के लिए डिजिटल सेवाएँ</p>
+
+<div class="grid">
+<div class="card"><div class="icon">🪪</div><h3>PAN Card</h3><p>नया PAN और अन्य PAN सेवाएँ</p></div>
+<div class="card"><div class="icon">🆔</div><h3>Aadhaar Services</h3><p>उपलब्ध आधार सेवाओं में सहायता</p></div>
+<div class="card"><div class="icon">📝</div><h3>Online Forms</h3><p>सरकारी एवं अन्य ऑनलाइन आवेदन</p></div>
+<div class="card"><div class="icon">🎓</div><h3>Scholarship</h3><p>छात्रवृत्ति आवेदन एवं सहायता</p></div>
+<div class="card"><div class="icon">🖨️</div><h3>Print & Photocopy</h3><p>कलर प्रिंट और फोटोकॉपी</p></div>
+<div class="card"><div class="icon">📄</div><h3>Certificates</h3><p>आय, जाति एवं निवास प्रमाणपत्र आवेदन</p></div>
+<div class="card"><div class="icon">💡</div><h3>Electricity Bill</h3><p>बिजली बिल भुगतान में सहायता</p></div>
+<div class="card"><div class="icon">🩺</div><h3>Ayushman Card</h3><p>पात्रता एवं कार्ड संबंधी सहायता</p></div>
+<div class="card"><div class="icon">🚘</div><h3>Vehicle Services</h3><p>रोड टैक्स एवं वाहन बीमा</p></div>
+<div class="card"><div class="icon">🌾</div><h3>Kisan Services</h3><p>किसान कार्ड एवं फसल बीमा</p></div>
+<div class="card"><div class="icon">👷</div><h3>E-Shram Card</h3><p>ई-श्रम संबंधी सहायता</p></div>
+<div class="card"><div class="icon">✈️</div><h3>Passport Service</h3><p>पासपोर्ट आवेदन में सहायता</p></div>
+<div class="card"><div class="icon">🚆</div><h3>Train Ticket</h3><p>उपलब्धता एवं अधिकृत बुकिंग सेवा</p></div>
+<div class="card"><div class="icon">📚</div><h3>Typing & Biodata</h3><p>टाइपिंग और बायोडाटा तैयार करना</p></div>
+<div class="card"><div class="icon">💳</div><h3>PF Withdrawal</h3><p>PF संबंधी आवेदन में सहायता</p></div>
+<div class="card"><div class="icon">📋</div><h3>Other Services</h3><p>राशन कार्ड, पेंशन एवं अन्य आवेदन</p></div>
+</div>
 </section>
-<section class="updates" id="updates">
-  <h2 class="section-title">Latest Updates</h2>
-  <p class="sub">भर्ती, स्कॉलरशिप और सरकारी योजनाओं की नई जानकारी के लिए संपर्क करें।</p>
-  <div class="update-grid">
-    <article class="update-card"><div class="icon">💼</div><h3>सरकारी नौकरी</h3><p>नई भर्ती, योग्यता, आवेदन की तारीख और आधिकारिक आवेदन लिंक के बारे में पूछें।</p><a href="https://wa.me/918809545829?text=Namaste%2C%20mujhe%20latest%20government%20job%20updates%20chahiye." target="_blank" rel="noopener">नौकरी अपडेट पूछें →</a></article>
-    <article class="update-card"><div class="icon">🎓</div><h3>स्कॉलरशिप</h3><p>मैट्रिक, इंटर, कॉलेज, ITI और अन्य छात्रवृत्ति योजनाओं की जानकारी पूछें।</p><a href="https://wa.me/918809545829?text=Namaste%2C%20mujhe%20latest%20scholarship%20updates%20chahiye." target="_blank" rel="noopener">स्कॉलरशिप पूछें →</a></article>
-    <article class="update-card"><div class="icon">🏛️</div><h3>सरकारी योजनाएँ</h3><p>योजना की पात्रता, जरूरी दस्तावेज़ और आवेदन प्रक्रिया की जानकारी लें।</p><a href="https://wa.me/918809545829?text=Namaste%2C%20mujhe%20latest%20government%20scheme%20updates%20chahiye." target="_blank" rel="noopener">योजना अपडेट पूछें →</a></article>
-  </div>
-  <div class="notice"><strong>📢 अपडेट और WhatsApp संपर्क:</strong> नौकरी, स्कॉलरशिप और सरकारी योजनाओं की जानकारी पाने के लिए नीचे बटन दबाकर संदेश भेजें। आवेदन से पहले अंतिम तिथि, पात्रता, फीस और जरूरी दस्तावेज़ संबंधित आधिकारिक पोर्टल से जरूर जाँचें।<br><br><a class="btn btn-gold" href="https://wa.me/918809545829?text=Namaste%20Bharat%20Cyber%20Cafe%2C%20mujhe%20job%2C%20scholarship%20aur%20sarkari%20yojana%20ke%20WhatsApp%20updates%20chahiye." target="_blank" rel="noopener">📲 WhatsApp अपडेट के लिए संपर्क करें</a></div>
+
+<section>
+<div class="notice">
+<h3>📢 महत्वपूर्ण सूचना</h3>
+<p>नए ऑनलाइन फॉर्म, सरकारी योजनाओं और छात्रवृत्ति की जानकारी के लिए Bharat Cyber Cafe से संपर्क करें। सभी आवेदन संबंधित विभाग की पात्रता एवं नियमों के अधीन हैं।</p>
+</div>
 </section>
-<section class="contact" id="contact">
-  <h2 class="section-title">हमसे संपर्क करें</h2>
-  <p class="sub" style="color:#d9e2ec">Bharat Cyber Cafe — आपके ऑनलाइन काम में सहायता के लिए।</p>
-  <div class="contact-grid">
-    <div class="contact-box"><h3>📍 दुकान का पता</h3><p>बड़ा बाजार, मच्छरगवां</p><p><strong>Proprietor:</strong> Umar</p><p><strong>मोबाइल:</strong> <a href="tel:+918809545829">8809545829</a></p></div>
-    <div class="contact-box"><h3>💬 WhatsApp करें</h3><p>अपनी जरूरत लिखकर भेजें। हम सेवा की उपलब्धता और प्रक्रिया के बारे में जानकारी देंगे।</p><a class="btn btn-gold" href="https://wa.me/918809545829" target="_blank" rel="noopener">अभी WhatsApp करें</a></div>
-  </div>
+
+<section id="contact">
+<div class="contact">
+<h2>📞 हमसे संपर्क करें</h2>
+<p><strong>Bharat Cyber Cafe</strong></p>
+<p>📍 बड़ा बाजार, मच्छरगवां</p>
+<p>📱 8809545829</p>
+<a class="btn btn-green" href="https://wa.me/918809545829?text=Namaste%20Bharat%20Cyber%20Cafe">WhatsApp पर संपर्क करें</a>
+</div>
 </section>
-</main>
-<footer>© <span id="year"></span> Bharat Cyber Cafe. सर्वाधिकार सुरक्षित।<br>यह वेबसाइट सूचना और संपर्क के लिए है; सरकारी विभाग की आधिकारिक वेबसाइट नहीं है।</footer>
-<a class="float" href="https://wa.me/918809545829" target="_blank" rel="noopener">WhatsApp</a>
-<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+
+<footer>
+<p><strong>BHARAT CYBER CAFE</strong></p>
+<p>आपकी सेवा में सदैव तत्पर</p>
+<p>© 2026 Bharat Cyber Cafe. All Rights Reserved.</p>
+</footer>
+
+<a class="float-wa" href="https://wa.me/918809545829?text=Namaste%20Bharat%20Cyber%20Cafe">🟢 WhatsApp</a>
+
 </body>
 </html>
